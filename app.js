@@ -12,6 +12,7 @@ export default class App {
   }
 
   init() {
+    this.express.use("/api", this.router);
     this.server = http.createServer(this.express);
     services(this);
   }
