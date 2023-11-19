@@ -28,7 +28,6 @@ export default class App {
   }
 
   configure(callback) {
-    console.log("configuring");
     callback.call({
       ...this.express,
       router: this.router,
