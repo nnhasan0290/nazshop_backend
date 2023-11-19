@@ -1,5 +1,0 @@
-{
-  "PORT": 3000,
-  "BASE": "http://localhost:3000",
-  "mongoURL": "mongodb+srv://nazshop:nazshop@cluster0.zrt8lu5.mongodb.net/?retryWrites=true&w=majority"
-}
